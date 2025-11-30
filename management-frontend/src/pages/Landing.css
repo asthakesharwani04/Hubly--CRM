@@ -1,0 +1,531 @@
+.landing {
+  min-height: 100vh;
+  background: #F8FBFE;
+}
+
+/* Header */
+.landing-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.landing-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #334755;
+}
+
+.landing-logo img {
+  height: 32px;
+}
+.landing-logo span{
+  color: #184E7F;
+}
+
+.landing-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.landing-nav-link {
+  font-size: 14px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.landing-nav-link:hover {
+  color: #334755;
+}
+
+.landing-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: #244779;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.landing-btn-primary:hover {
+  background: #243542;
+  color: white;
+}
+
+.landing-btn-lg {
+  padding: 14px 28px;
+  font-size: 15px;
+}
+
+.landing-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: transparent;
+  color: #333333;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.landing-btn-outline {
+  width: 100%;
+  padding: 14px 24px;
+  background: transparent;
+  color: #244779;
+  border: 1px solid #244779 ;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: auto;
+}
+
+.landing-btn-outline:hover {
+  background: #334755;
+  color: #ffffff;
+}
+
+/* Hero */
+.landing-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 60px;
+}
+
+.landing-hero-content {
+  flex: 1;
+  max-width: 500px;
+  color: #30404D;
+}
+
+.landing-hero-content h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 20px 0;
+}
+
+.landing-hero-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 32px 0;
+}
+
+.landing-hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.landing-hero-image {
+  flex: 1;
+  position: relative;
+  max-width: 400px;
+  max-height: 420px;
+  filter: drop-shadow(0 20px 40px rgba(52, 71, 85, 0.15)) 
+        drop-shadow(0 10px 20px rgba(26, 115, 232, 0.2));
+}
+
+.landing-hero-main {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.landing-hero-card {
+  position: absolute;
+  border-radius: 12px;
+}
+
+.landing-hero-notification {
+  top: -20px;
+  right: -20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background-color: #fff;
+}
+
+.notification-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.notification-name {
+  font-weight: 600;
+  color: #333333;
+  font-size: 13px;
+}
+
+.notification-action {
+  color: #666666;
+  font-size: 13px;
+}
+
+.notification-highlight {
+  color: #1a73e8;
+  font-size: 13px;
+}
+
+.notification-time {
+  font-size: 11px;
+  color: #999999;
+  margin: 2px 0 0 0;
+}
+
+.landing-hero-calendar {
+  bottom: -110px;
+  left: -70px;
+}
+
+.landing-hero-calendar img {
+  width: 220px;
+  object-fit: contain;
+}
+
+.landing-hero-sales {
+  bottom: -40px;
+  right: -70px;
+}
+
+.landing-hero-sales img {
+  width: 150px;
+}
+
+/* Logos */
+.landing-logos {
+  background: #f0f4f8;
+  padding: 40px 80px;
+  margin-top: 40px;
+}
+
+.landing-logos-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.landing-logo-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #334755;
+}
+
+/* Sections */
+.landing-section {
+  padding: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.landing-section-center {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.landing-section-center h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #30404D;
+  margin: 0 0 20px 0;
+}
+
+.landing-section-center p {
+  font-size: 16px;
+  color: #30404D;
+  line-height: 1.6;
+}
+
+/* Platform */
+.landing-platform {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 48px 64px;
+  max-width: 1200px;
+  margin: 0 auto 80px;
+  background: #ffffff;               
+  border-radius: 24px;                
+  box-shadow: 0 24px 60px rgba(15, 35, 52, 0.12); 
+}
+
+
+.landing-platform-content {
+  flex: 1;
+  padding-right: 40px;
+  background: transparent;  /* no inner box, just text */
+  border: none;
+}
+
+.landing-platform-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #334755;
+  margin: 0 0 12px 0;
+}
+
+.landing-platform-desc {
+  font-size: 14px;
+  color: #666666;
+  margin: 0 0 32px 0;
+}
+
+.landing-platform-feature {
+  margin-bottom: 24px;
+}
+
+.landing-platform-feature h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #334755;
+  margin: 0 0 8px 0;
+}
+
+.landing-platform-feature p {
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.landing-platform-image {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0 20px 40px rgba(52, 71, 85, 0.15)) 
+        drop-shadow(0 10px 20px rgba(26, 115, 232, 0.2));
+}
+
+.funnel-icons {
+  position: absolute;
+  top: -26px;
+  left: 58%;
+  transform: translateX(-50%);
+  width: 180px;
+}
+
+.funnel-icon {
+  width: 300px;
+  max-width: 100%;
+}
+
+.landing-funnel {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Pricing */
+.landing-pricing {
+  padding: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.landing-pricing-cards {
+  display: flex;
+  gap: 32px;
+  margin-top: 48px;
+  justify-content: center;
+}
+
+.landing-pricing-card {
+  flex: 1;
+  max-width: 400px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-pricing-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #334755;
+  margin: 0 0 12px 0;
+}
+
+.landing-pricing-card > p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.5;
+  margin: 0 0 24px 0;
+}
+
+.landing-price {
+  margin-bottom: 24px;
+}
+
+.landing-price-amount {
+  font-size: 36px;
+  font-weight: 700;
+  color: #3A7ABD;
+}
+
+.landing-price-period {
+  font-size: 14px;
+  color: #98A8B3;
+}
+
+.landing-price-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  margin: 0 0 16px 0;
+}
+
+.landing-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+  flex-grow: 1;
+}
+
+.landing-features li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #30404D;
+  padding: 8px 0;
+}
+
+.landing-features li span {
+  color: #1a73e8;
+  font-weight: 600;
+}
+
+/* Footer */
+.landing-footer {
+  background: #ffffff;
+  padding: 60px 80px 40px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.landing-footer-content {
+  display: flex;
+  gap: 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.landing-footer-links {
+  display: flex;
+  gap: 60px;
+  flex: 1;
+}
+
+.landing-footer-col h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+  margin: 0 0 16px 0;
+}
+
+.landing-footer-col a {
+  display: block;
+  font-size: 13px;
+  color: #1B1A1A;
+  text-decoration: none;
+  padding: 6px 0;
+}
+
+.landing-footer-col a:hover {
+  color: #334755;
+}
+
+.landing-footer-bottom {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding-top: 24px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.landing-footer-social {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.landing-footer-social a {
+  color: #666666;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .landing-header,
+  .landing-hero,
+  .landing-section,
+  .landing-platform,
+  .landing-pricing,
+  .landing-footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media (max-width: 1024px){
+    .funnel-icons, .funnel-icon{
+      display: none;
+    }
+  }
+ 
+  .landing-hero {
+    flex-direction: column;
+  }
+
+  .landing-hero-content {
+    max-width: none;
+    text-align: center;
+  }
+
+  .landing-hero-actions {
+    justify-content: center;
+  }
+
+  .landing-platform {
+    flex-direction: column;
+  }
+
+  .landing-pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

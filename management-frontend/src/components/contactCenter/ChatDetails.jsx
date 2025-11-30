@@ -88,7 +88,7 @@ const ChatDetails = ({
             <img src="/member-icon.png" alt="" />
           </div>
           <span className="chat-details-value">{ticket.userName}</span>
-          <span className="chat-details-badge">2</span>
+         
         </div>
 
         <div className="chat-details-row">

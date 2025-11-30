@@ -83,8 +83,7 @@ const corsOptions = {
   optionsSuccessStatus: 204,
 };
 
-// Handle preflight requests for all routes
-app.options("*", cors(corsOptions));
+app.use(cors(corsOptions));
 
 // Parsers & dev logging
 app.use(express.json());
